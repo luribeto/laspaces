@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import paces from './paces-v.jpeg';
+// import logo from './logo.svg';
+// import paces from './paces-v.jpeg';
 import './App.css';
 
 function App() {
