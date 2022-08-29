@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: right;
 }
 
 .App-logo {
@@ -18,8 +18,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  justify-content: flex-end;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-background {
+  width: 100vw;
+  height: 100vh;
+  background: url('./paces-v.jpeg') no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+.App-texts {
+  position: absolute;
+  right: 20%;
+  top: 35%;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-family: 'Helvetica Neue';
+  font-size: 4rem;
+  margin: 0;
+}
+
+h5 {
+  /* font-family: 'Helvetica Neue'; */
+  font-size: 1.3rem;
+  margin: 0;
+  color: #301934;
+  font-style: italic;
 }
