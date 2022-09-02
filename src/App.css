@@ -45,28 +45,40 @@
   position: relative;
 }
 
-.App-overlay {
+.App-background-gray {
   width: 100vw;
   height: 100vh;
+  background-color: #0F2D3D;
+  position: relative;
+}
+
+.App-overlay {
+  /* width: 100vw;
+  height: 100vh; */
   background-color: rgba(0,0,0,0.5);
 }
 
 .App-texts {
   position: absolute;
-  left: 10%;
-  height: 100vh;
+  left: 0;
+  height: 100%;
   color: lightgray;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 10rem 5rem;
+  padding-top: 10rem;
   background-color: rgba(0,0,0,0.5);
   /* border: 2px solid cyan; */
 }
 
 .App-logo-2 {
   height: 400px;
+  width:400px;
+}
+
+.App-logo-web {
+  height: 200px;
   width:400px;
 }
 
