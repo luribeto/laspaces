@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/laspaces/static/css/main.36e5ca30.css",
-    "main.js": "/laspaces/static/js/main.433fafd3.js",
+    "main.css": "/laspaces/static/css/main.037a03ef.css",
+    "main.js": "/laspaces/static/js/main.dd5698d0.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
-    "static/media/victimas1.png": "/laspaces/static/media/victimas1.10dbbb0a684b935f5276.png",
-    "static/media/laspaces-logo-web.png": "/laspaces/static/media/laspaces-logo-web.2f438e1d61564f76604c.png",
+    "static/media/logo.svg": "/laspaces/static/media/logo.3c443ce7f4a6ba3e706920310d18b831.svg",
+    "static/media/logo-mobile.svg": "/laspaces/static/media/logo-mobile.f0d172240574c1384352e7b5133ac306.svg",
+    "static/media/partner03.svg": "/laspaces/static/media/partner03.f1d2b4017d266e5a1913268f066d2e7a.svg",
+    "static/media/partner01.svg": "/laspaces/static/media/partner01.7d2b415e88fe2765dcb99d4f656240ce.svg",
+    "static/media/partner02.svg": "/laspaces/static/media/partner02.21d3407fce43a9e299e2ba3fe91b780a.svg",
+    "static/media/partner06.svg": "/laspaces/static/media/partner06.b5ae417845fc46b86182a51ccf79f724.svg",
+    "static/media/partner05.svg": "/laspaces/static/media/partner05.942eb9b20e1aab29c5806f3f466aa383.svg",
+    "static/media/partner04.svg": "/laspaces/static/media/partner04.ae8b092969fcca1507a248459c9eb18e.svg",
+    "static/media/contact-info-icon3.svg": "/laspaces/static/media/contact-info-icon3.a0d0ea57f2207d9d94011e473b20f196.svg",
+    "static/media/contact-info-icon2.svg": "/laspaces/static/media/contact-info-icon2.bb0a5efe93df9be637ca2bba22e14c97.svg",
+    "static/media/twitter.svg": "/laspaces/static/media/twitter.7c0d48ba5533a283a7b535dfb59e6754.svg",
+    "static/media/youtube.svg": "/laspaces/static/media/youtube.3183a919f5d16ef766962a8af35fbd4a.svg",
+    "static/media/mobile-close.svg": "/laspaces/static/media/mobile-close.1ad1aa67d790c39210faead5a7d6d1e6.svg",
+    "static/media/facebook.svg": "/laspaces/static/media/facebook.85e4ac1741a0c00841205f064a141abf.svg",
     "index.html": "/laspaces/index.html",
-    "main.36e5ca30.css.map": "/laspaces/static/css/main.36e5ca30.css.map",
-    "main.433fafd3.js.map": "/laspaces/static/js/main.433fafd3.js.map",
+    "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
+    "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
+    "main.037a03ef.css.map": "/laspaces/static/css/main.037a03ef.css.map",
+    "main.dd5698d0.js.map": "/laspaces/static/js/main.dd5698d0.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36e5ca30.css",
-    "static/js/main.433fafd3.js"
+    "static/css/main.037a03ef.css",
+    "static/js/main.dd5698d0.js"
   ]
 }
