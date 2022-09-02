@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/laspaces/static/css/main.7a947833.css",
-    "main.js": "/laspaces/static/js/main.2a9a8acf.js",
+    "main.css": "/laspaces/static/css/main.3add0467.css",
+    "main.js": "/laspaces/static/js/main.433fafd3.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/victimas1.png": "/laspaces/static/media/victimas1.10dbbb0a684b935f5276.png",
+    "static/media/laspaces-logo-web.png": "/laspaces/static/media/laspaces-logo-web.2f438e1d61564f76604c.png",
     "index.html": "/laspaces/index.html",
-    "main.7a947833.css.map": "/laspaces/static/css/main.7a947833.css.map",
-    "main.2a9a8acf.js.map": "/laspaces/static/js/main.2a9a8acf.js.map",
+    "main.3add0467.css.map": "/laspaces/static/css/main.3add0467.css.map",
+    "main.433fafd3.js.map": "/laspaces/static/js/main.433fafd3.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a947833.css",
-    "static/js/main.2a9a8acf.js"
+    "static/css/main.3add0467.css",
+    "static/js/main.433fafd3.js"
   ]
 }
