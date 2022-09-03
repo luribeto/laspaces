@@ -26,7 +26,7 @@
 input {
   background-color: $light-color;
   width: 100%;
-  max-width: 570px;
+  max-width: 80%;
   height: 45px;
   border: 0px;
   padding: 0 15px;
@@ -34,6 +34,7 @@ input {
   border: 2px solid $light-color;
   outline: none;
   margin: 5px 0;
+  color: $black-color;
 }
 input:active, input:focus {
   border: 2px solid $main-color;
@@ -48,13 +49,14 @@ input:active, input:focus {
 textarea {
   background-color: $light-color;
   width: 100%;
-  max-width: 570px;
+  max-width: 80%;
   border: 0px;
   padding: 15px;
   font-size: 12px;
   border: 2px solid $light-color;
   outline: none;
   margin: 5px 0;
+  color: $black-color;
 }
 
 textarea:active, textarea:focus {

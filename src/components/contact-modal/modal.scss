@@ -41,7 +41,8 @@
 
       p {
         font-size: 1.5rem;
-        color: #1E1E1E;
+        // color: #1E1E1E;
+        color: $black-color;
         font-weight: 800;
 
         &:nth-child(1) {

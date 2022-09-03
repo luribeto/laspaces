@@ -32,7 +32,7 @@
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1170px) {
   .footer {
     .footer-box {
       display: flex;
@@ -42,6 +42,9 @@
       img {
         padding-bottom: 30px;
       }
+      p {
+        margin-left: 0;
+      }
     }
     .back-to-top {
       display: flex;
@@ -49,6 +52,7 @@
       align-items: center;
       float: none;
       flex-direction: row;
+      // background-color: #2E2D2C;
       
       img {
         padding-bottom: 0px;

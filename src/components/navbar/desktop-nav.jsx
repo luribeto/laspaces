@@ -11,7 +11,7 @@ const desktopNav = (props) => {
 
   const renderLogo = () => {
     const screenW = window.screen.availWidth;
-    return screenW < 720 ?<img src={LogoMobile} alt="logo" className="pointer" /> : <img src={LogoImg} alt="logo" className="pointer" />
+    return screenW <= 1024 ?<img src={LogoMobile} alt="logo" className="pointer" /> : <img src={LogoImg} alt="logo" className="pointer" />
   }
   return (
     <nav className={`Navbar ${!props.userIsScrolled ? "extraLargeNavbar" : ""}`}>
