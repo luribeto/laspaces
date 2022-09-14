@@ -14,8 +14,8 @@ const about = () => (
     <div className="wrapper">
       <Title title="QUIENES SOMOS." />
       <p className="font20">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt<br></br>ut labore et dolore magna aliqua.
+      Somos una organización dedicada a dar asesoría a entidades estatales y no estatales y a personas que trabajan o están involucradas con temas de justicia restaurativa y reparación integral a víctimas. 
+      Realizamos procesos de consultoría, asesoría, fortalecimiento y formación en herramientas psicosociales para la restauración y reparación integral a víctimas, el cuidado emocional de quienes trabajan con graves violaciones a los derechos humanos, también desarrollamos procesos de mediación y preparación para el reconocimiento.
       </p>
       <Row>
         <Col md={12} lg={4}>

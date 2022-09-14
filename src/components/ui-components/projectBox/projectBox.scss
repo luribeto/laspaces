@@ -5,6 +5,8 @@
     max-width: 370px;
     margin: 15px auto;
     cursor: pointer;
+    border: 1px solid yellow;
+    background-size: cover;
 
     img {
       width: 100%;
@@ -28,4 +30,16 @@
     .portfolio__hover-info:hover {
       opacity: 1;
     }
+  }
+
+  .servicio-500 {
+    height: 500px;
+  }
+
+  .servicio-300 {
+    height: 323px;
+  }
+
+  .servicio-400 {
+    height: 400px;
   }

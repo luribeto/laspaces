@@ -24,40 +24,52 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
-          preview: Preview1,
-          title: "Lamp",
+          preview: Preview2,
+          title: "CARACTERIZACIÓN DE DAÑOS PSICOSOCIALES",
           tag: "branding",
         },
         {
           id: "2",
-          preview: Preview2,
-          title: "Smartwatch",
+          preview: Preview1,
+          title: "CONSTRUCCIÓN DE PROTOCOLOS",
           tag: "web",
         },
         {
           id: "3",
-          preview: Preview3,
-          title: "Speakerphone",
+          preview: Preview2,
+          title: "ESTRATEGIA DE ATENCIÓN AL AGOTAMIENTO EMOCIONAL",
           tag: "illustrations",
         },
         {
           id: "4",
-          preview: Preview4,
-          title: "Sneakers",
+          preview: Preview2,
+          title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
           tag: "web",
         },
         {
           id: "5",
           preview: Preview5,
-          title: "Label",
+          title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
           tag: "illustrations",
         },
         {
           id: "6",
           preview: Preview6,
-          title: "lemons",
+          title: "ASESORÍAS",
           tag: "branding",
         },
+        // {
+        //   id: "7",
+        //   preview: null,
+        //   title: "",
+        //   tag: "",
+        // },
+        // {
+        //   id: "8",
+        //   preview: Preview1,
+        //   title: "lemons",
+        //   tag: "branding",
+        // },
       ],
       // PORTFOLIO GALLERY WILL LOAD THIS AFTER FUNCTION "filterGallery" FINISH FILTERING
       filterResult: null,
@@ -116,9 +128,12 @@ class Portfolio extends React.Component {
     // PORTFOLIO GALLERY RENDER
     let projectsRender = null;
     if (this.state.filterResult) {
-      projectsRender = this.state.filterResult.map((project) => (
-        <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
-      ));
+      projectsRender = this.state.filterResult.map((project) => {
+        // if (project.id === '7') {
+        //   return <ProjectBox show={'none'} id={project.id} preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
+        // }
+        return <ProjectBox show={'block'} id={project.id} preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
+    });
     }
     // PORTFOLIO GALLERY BREAKPOINTS
     const portfolioBreakpoints = {
