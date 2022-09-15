@@ -198,7 +198,7 @@ class Portfolio extends React.Component {
             {projectsRender}
           </Masonry>
           <Row className="flex-center padding40">
-            <Button label="HAVE WORK FOR US?" target={"contact"} />
+            <Button label="NECESITAS NUESTROS SERVICIOS?" target={"contact"} />
           </Row>
         </div>
       </div>
