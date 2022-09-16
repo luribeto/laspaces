@@ -5,16 +5,17 @@ import Masonry from "react-masonry-css";
 import "./portfolio.scss";
 //Assets
 import Arrow from "../../assets/portfolio/arrow.svg";
-import Preview1 from "../../assets/portfolio/project01/preview.png";
-import Preview2 from "../../assets/portfolio/project02/preview.png";
+import Preview1 from "../../assets/portfolio/project01/back-dano.png";
+import Preview2 from "../../assets/portfolio/project02/back-protocolos.png";
 import Preview3 from "../../assets/portfolio/project03/preview.png";
 import Preview4 from "../../assets/portfolio/project04/preview.png";
 import Preview5 from "../../assets/portfolio/project05/preview.png";
-import Preview6 from "../../assets/portfolio/project06/preview.png";
+import Preview6 from "../../assets/portfolio/project06/dudas-asesoria.jpeg";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
 import ProjectBox from "../ui-components/projectBox/projectBox";
+import Servicio from "./servicio";
 
 class Portfolio extends React.Component {
   constructor(props) {
@@ -24,39 +25,45 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
-          preview: Preview2,
+          preview: Preview1,
           title: "CARACTERIZACIÓN DE DAÑOS PSICOSOCIALES",
           tag: "branding",
+          backImg: "back-dano.png",
         },
         {
           id: "2",
-          preview: Preview1,
+          preview: Preview2,
           title: "CONSTRUCCIÓN DE PROTOCOLOS",
           tag: "web",
+          backImg: "back-protocolos.png",
         },
         {
           id: "3",
-          preview: Preview2,
+          preview: Preview4,
           title: "ESTRATEGIA DE ATENCIÓN AL AGOTAMIENTO EMOCIONAL",
           tag: "illustrations",
+          backImg: "back-estrategias.png",
         },
         {
           id: "4",
           preview: Preview2,
           title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
           tag: "web",
+          backImg: "back-estrategias.png",
         },
         {
           id: "5",
           preview: Preview5,
           title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
           tag: "illustrations",
+          backImg: "back-estrategias.png",
         },
         {
           id: "6",
           preview: Preview6,
           title: "ASESORÍAS",
           tag: "branding",
+          backImg: "dudas-asesoria.jpeg",
         },
         // {
         //   id: "7",
@@ -75,7 +82,8 @@ class Portfolio extends React.Component {
       filterResult: null,
       pickedFilter: "all",
       filterMenuActive: false,
-      pickedFilterDropdown: "NEWEST"
+      pickedFilterDropdown: "NEWEST",
+      selected: null,
     };
   }
 
@@ -123,6 +131,30 @@ class Portfolio extends React.Component {
     this.setState({ filterResult: result});
   }
 
+  onServiceSelect = (project) => {
+    this.setState({ selected: project })
+  }
+
+  seeAllServices = () => {
+    this.setState({ selected: null });
+  }
+
+  seePrevServices = () => {
+    const prevProjectIdx = this.state.projects.findIndex((project) => {
+      return parseInt(project.id, 10) === (parseInt(this.state.selected.id, 10) - 1);
+    });
+    const prevProject = this.state.projects[prevProjectIdx];
+    if (prevProject) this.setState({ selected: prevProject })
+  }
+
+  seeNextServices = () => {
+    const nextProjectIdx = this.state.projects.findIndex((project) => {
+      return parseInt(project.id, 10) === (parseInt(this.state.selected.id, 10) + 1);
+    });
+    const nextProject = this.state.projects[nextProjectIdx];
+    if (nextProject) this.setState({ selected: nextProject })
+  }
+
   // RENDER
   render() {
     // PORTFOLIO GALLERY RENDER
@@ -132,7 +164,16 @@ class Portfolio extends React.Component {
         // if (project.id === '7') {
         //   return <ProjectBox show={'none'} id={project.id} preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
         // }
-        return <ProjectBox show={'block'} id={project.id} preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
+        return <ProjectBox 
+                  show={'block'} 
+                  id={project.id}
+                  backImg={project.backImg}
+                  preview={project.preview} 
+                  key={project.id} 
+                  title={project.title} 
+                  tag={project.tag} 
+                  onClick={() => this.onServiceSelect(project)} 
+                />
     });
     }
     // PORTFOLIO GALLERY BREAKPOINTS
@@ -143,60 +184,58 @@ class Portfolio extends React.Component {
       500: 1,
     };
     // PORTFOLIO FILTER DROPDOWN MENY RENDER
-    let filterDroppDown = null;
-    if(this.state.filterMenuActive) {
-      filterDroppDown = (
-        <div className="portfolio__filter-menu shadow">
-          <p className="font12" onClick={() => this.filterDropDownHandler("NEWEST")}>
-            NEWEST
-          </p>
-          <p className="font12" onClick={() => this.filterDropDownHandler("OLDEST")}>
-            OLDEST
-          </p>
-        </div>
-      );
-    }
+    // let filterDroppDown = null;
+    // if(this.state.filterMenuActive) {
+    //   filterDroppDown = (
+    //     <div className="portfolio__filter-menu shadow">
+    //       <p className="font12" onClick={() => this.filterDropDownHandler("NEWEST")}>
+    //         NEWEST
+    //       </p>
+    //       <p className="font12" onClick={() => this.filterDropDownHandler("OLDEST")}>
+    //         OLDEST
+    //       </p>
+    //     </div>
+    //   );
+    // }
+
+    const disablePrev = !!(this.state.selected?.id === '1');
+    const disableNext = !!(this.state.selected?.id === '6');
 
     return (
       <div id="portfolio">
         <div className="wrapper">
-          <Title title="SERVICIOS." />
+          <Title title="SERVICIOS" />
           <Row>
             <Col xs={12} sm={12} md={8} lg={9}>
               <div className="portfolio__nav">
-                <ul>
-                  <li className={this.state.pickedFilter === "all" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("all")}>
-                    ALL
-                  </li>
-                  <li
-                    className={this.state.pickedFilter === "branding" ? "portfolio__nav-active font12" : "font12"}
-                    onClick={() => this.filterGallery("branding")}
-                  >
-                    BRANDING
-                  </li>
-                  <li
-                    className={this.state.pickedFilter === "illustrations" ? "portfolio__nav-active font12" : "font12"}
-                    onClick={() => this.filterGallery("illustrations")}
-                  >
-                    ILLUSTRATIONS
-                  </li>
-                  <li className={this.state.pickedFilter === "web" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("web")}>
-                    WEB
-                  </li>
-                </ul>
+              {this.state.selected && 
+                <div>
+                  <button className="back-btn" onClick={this.seeAllServices}>&#x2756; TODOS LOS SERVICIOS</button>
+                  <button className="back-btn" disabled={disablePrev} onClick={this.seePrevServices}>&#8678; ANTERIOR</button>
+                  <button className="back-btn" disabled={disableNext} onClick={this.seeNextServices}>SIGUIENTE &#8680;</button>
+                </div>
+                // <ul>
+                //   <li className={this.state.pickedFilter === "all" ? "portfolio__nav-active font12" : "font12"} onClick={() => this.filterGallery("all")}>
+                //     ALL
+                //   </li>
+                // </ul>
+              }
               </div>
             </Col>
-            <Col xs={12} sm={12} md={4} lg={3}>
+            {/* <Col xs={12} sm={12} md={4} lg={3}>
               <div className="portfolio__filter" onMouseEnter={() => this.filterMenuHover(true)} onMouseLeave={() => this.filterMenuHover(false)}>
                 <p className="font12">{this.state.pickedFilterDropdown} FIRST</p>
                 <img src={Arrow} alt="arrow" />
                 {filterDroppDown}
               </div>
-            </Col>
+            </Col> */}
           </Row>
-          <Masonry breakpointCols={portfolioBreakpoints} className="my-masonry-grid" columnClassName="mint__gallery">
-            {projectsRender}
-          </Masonry>
+          {this.state.selected ? 
+            <Servicio project={this.state.selected}/> : 
+            <Masonry breakpointCols={portfolioBreakpoints} className="my-masonry-grid" columnClassName="mint__gallery">
+              {projectsRender}
+            </Masonry>
+          }
           <Row className="flex-center padding40">
             <Button label="NECESITAS NUESTROS SERVICIOS?" target={"contact"} />
           </Row>

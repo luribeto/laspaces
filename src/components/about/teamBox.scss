@@ -4,7 +4,7 @@
   max-width: 370px;
   height: 420px;
   margin: 0 auto;
-  margin-top: 60px;
+  // margin-top: 60px;
   position: relative;
   
   img {
@@ -13,19 +13,19 @@
   }
 
   .team__box-info {
-    background-color: $main-color;
+    // background-color: $main-color;
     position: absolute;
     bottom: 0;
-    left: 0;
-    text-align: left;
-    width: 80%;
-    padding: 5px 20px;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    padding: 0px 5px 10px 0;
 
     p {
-      color: $black-color;
+      color: $main-color;
     }
-    p:nth-child(2) {
-      color: $white-color;
+    p:nth-child(2), p:nth-child(3) {
+      color: $black-color;
     }
   }
 }

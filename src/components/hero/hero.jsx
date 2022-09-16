@@ -3,7 +3,7 @@ import { Row, Col } from "react-flexbox-grid";
 // SCSS
 import "./hero.scss";
 //Assets
-import HeroImage from '../../assets/hero/mexico-1.jpeg';
+import HeroImage from '../../assets/hero/mexico-3.png';
 //Components
 import Button from '../ui-components/button/button';
 
@@ -11,7 +11,7 @@ const hero = () => (
   <div className="hero" id="hero">
     <div className="wrapper">
       <Row>
-        <Col md={12} lg={6}>
+        <Col md={12} lg={5}>
           <div className="hero-info">
             <h3 className="weight800 font40">
               Somos Especialistas en Justicia Restaurativa.
@@ -23,9 +23,9 @@ const hero = () => (
             <Button label="ENVIANOS UN MENSAJE" target={"contact"} />
           </div>
         </Col>
-        <Col md={12} lg={6}>
-          <div className="hero-image">
-            <img src={HeroImage} alt="hero" />
+        <Col md={12} lg={7} className="img-wrapper">
+          <div className="hero-image" style={{height:'80%'}}>
+            <img style={{height: '100%', width: '100%', objectFit: 'cover'}} src={HeroImage} alt="hero" />
           </div>
         </Col>
       </Row>
