@@ -1,19 +1,24 @@
 @import '../../../style/App.scss';
   
 .testomonio {
-  display: flex;
+  // display: flex;
   padding: 0 4rem;
   margin: 0 0 4rem 0;
 
-  img {
-    width: 180px;
-    height: 180px;
-    border-radius: 90px;
-    margin: 2rem 0 0 0;
+  .testimonial-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+      margin: 2rem 0 0 0;
+    }
   }
 
-  div {
-    margin: 0 0 0 4rem;
+  .testimonial-txt {
+    // margin: 0 0 0 4rem;
     padding: 2rem 3rem;
     background-color: $gray-color;
     width: 100%;
@@ -35,6 +40,23 @@
   
     .quote {
       font-size: 3rem;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 770px) {
+  .testomonio {
+  
+    .testimonial-img {
+      padding: 0 0 4rem 0;
+  
+      // img {
+      //   width: 180px;
+      //   height: 180px;
+      //   border-radius: 90px;
+      //   margin: 2rem 0 0 0;
+      // }
     }
   }
 }
