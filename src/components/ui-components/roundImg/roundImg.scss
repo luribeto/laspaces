@@ -1,0 +1,40 @@
+@import '../../../style/App.scss';
+  
+.testomonio {
+  display: flex;
+  padding: 0 4rem;
+  margin: 0 0 4rem 0;
+
+  img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 2rem 0 0 0;
+  }
+
+  div {
+    margin: 0 0 0 4rem;
+    padding: 2rem 3rem;
+    background-color: $gray-color;
+    width: 100%;
+    border-radius: 10px;
+
+    h5 {
+      color: $main-color;
+    }
+  
+    p, i {
+      padding: 1.5rem 0;
+      font-size: 2rem;
+      font-style: italic;
+    }
+  
+    i {
+      color: $green-color;
+    }
+  
+    .quote {
+      font-size: 3rem;
+    }
+  }
+}
