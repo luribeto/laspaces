@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laspaces/static/css/main.fd738ba7.css",
-    "main.js": "/laspaces/static/js/main.0b2743ca.js",
+    "main.js": "/laspaces/static/js/main.93727ce8.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/linix-quienes-somos.png": "/laspaces/static/media/linix-quienes-somos.131cb534ac9584d4482d.png",
     "static/media/dudas-asesoria.jpeg": "/laspaces/static/media/dudas-asesoria.23e3505e546aa5ff92aa.jpeg",
@@ -10,6 +10,10 @@
     "static/media/testimonio-1.png": "/laspaces/static/media/testimonio-1.bbdd90ecc5ff9d71d389.png",
     "static/media/back-dano.png": "/laspaces/static/media/back-dano.d1836fb6180c250b931a.png",
     "static/media/back-protocolos.png": "/laspaces/static/media/back-protocolos.da0355a04db914ab3c89.png",
+    "static/media/testimonio-3.png": "/laspaces/static/media/testimonio-3.4302e160a911a51d98cb.png",
+    "static/media/testimonio-4.png": "/laspaces/static/media/testimonio-4.07ebf2d2dfade28a3993.png",
+    "static/media/testimonio-2.png": "/laspaces/static/media/testimonio-2.a4caafd001717ee07701.png",
+    "static/media/testimonio-5.png": "/laspaces/static/media/testimonio-5.3e22b0afdd01319d2612.png",
     "static/media/logo.svg": "/laspaces/static/media/logo.3c443ce7f4a6ba3e706920310d18b831.svg",
     "static/media/eje-7.svg": "/laspaces/static/media/eje-7.31522439b893c4f749f46165ea7b2a14.svg",
     "static/media/logo-mobile.svg": "/laspaces/static/media/logo-mobile.f0d172240574c1384352e7b5133ac306.svg",
@@ -30,11 +34,11 @@
     "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
     "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
     "main.fd738ba7.css.map": "/laspaces/static/css/main.fd738ba7.css.map",
-    "main.0b2743ca.js.map": "/laspaces/static/js/main.0b2743ca.js.map",
+    "main.93727ce8.js.map": "/laspaces/static/js/main.93727ce8.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd738ba7.css",
-    "static/js/main.0b2743ca.js"
+    "static/js/main.93727ce8.js"
   ]
 }
