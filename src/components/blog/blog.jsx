@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Swiper from "react-id-swiper";
-import SimpleModal from "../ui-components/modal/modal";
-import { makeStyles } from '@material-ui/core/styles';
+// import SimpleModal from "../ui-components/modal/modal";
+// import { makeStyles } from '@material-ui/core/styles';
 // SCSS
 import "./blog.scss";
 import "swiper/css/swiper.css";
@@ -23,16 +23,16 @@ function rand() {
   return Math.round(Math.random() * 20) - 10;
 }
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    position: 'absolute',
-    width: 400,
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   paper: {
+//     position: 'absolute',
+//     width: 400,
+//     backgroundColor: theme.palette.background.paper,
+//     border: '2px solid #000',
+//     boxShadow: theme.shadows[5],
+//     padding: theme.spacing(2, 4, 3),
+//   },
+// }));
 
 function getModalStyle() {
   const top = 50 + rand();
@@ -47,7 +47,7 @@ function getModalStyle() {
 }
 
 export default function Blog(props) {
-  const classes =  useStyles();
+  // const classes =  useStyles();
   const [modalStyle] = React.useState(getModalStyle);
   const [modalOpen, setModalOpen] = useState(false);
   const [seleccionado, setSeleccionado] = useState({});
@@ -148,19 +148,19 @@ export default function Blog(props) {
     },
   };
 
-  const body = (
-    <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">{seleccionado?.title}</h2>
-      <h3 id="simple-modal-title">{seleccionado?.role}</h3>
-      <p id="simple-modal-description">
-        {seleccionado?.description}
-      </p>
-      <p id="simple-modal-description">
-        {seleccionado?.date}
-      </p>
-      <SimpleModal />
-    </div>
-  );
+  // const body = (
+  //   <div style={modalStyle} className={classes.paper}>
+  //     <h2 id="simple-modal-title">{seleccionado?.title}</h2>
+  //     <h3 id="simple-modal-title">{seleccionado?.role}</h3>
+  //     <p id="simple-modal-description">
+  //       {seleccionado?.description}
+  //     </p>
+  //     <p id="simple-modal-description">
+  //       {seleccionado?.date}
+  //     </p>
+  //     <SimpleModal />
+  //   </div>
+  // );
 
   const renderTestimonials = () => {
     return testimonios.map((testimonio) => {
@@ -182,7 +182,7 @@ export default function Blog(props) {
           {renderTestimonials()}
         </div>
       </div>
-      <SimpleModal open={modalOpen} body={body} setOpen={() => handleModalToggle()} />
+      {/* <SimpleModal open={modalOpen} body={body} setOpen={() => handleModalToggle()} /> */}
     </div>
   );
 }
