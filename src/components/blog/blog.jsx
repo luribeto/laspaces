@@ -14,6 +14,10 @@ import Preview05 from "../../assets/blog/story05/preview.png";
 import Preview06 from "../../assets/blog/story06/preview.png";
 
 import Testimonio01 from "../../assets/blog/testimonio-1.png";
+import Testimonio02 from "../../assets/blog/testimonio-2.png";
+import Testimonio03 from "../../assets/blog/testimonio-3.png";
+import Testimonio04 from "../../assets/blog/testimonio-4.png";
+import Testimonio05 from "../../assets/blog/testimonio-5.png";
 // Components
 import Title from "../ui-components/title/title";
 import BlogBox from "./blogBox";
@@ -54,53 +58,53 @@ export default function Blog(props) {
   const [testimonios, setTestimonials] = useState(
     [
       {
-        image: Testimonio01,
+        image: Testimonio02,
         id: "1",
         title: "Julieta Lemaitre Ripoll",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
+        role: "Magistrada Sala de Reconocimiento - Jurisdicción Especial para la Paz",
         description: "Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.",
         date: "21 April 2020",
       },
       {
-        image: Testimonio01,
+        image: Testimonio03,
         id: "2",
-        title: "AWESOME ARTICLE!",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
+        title: "Oscar Parra",
+        role: "Magistrado Sala de Reconocimiento - Jurisdicción Especial para la Paz",
         description: "Lorem ipsum dolor undo thes tabore et dolore magna aliqua.",
         date: "27 April 2020",
       },
       {
-        image: Testimonio01,
+        image: Testimonio04,
         id: "3",
-        title: "SUPER TITLE!",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
+        title: "Olga Lucía Gomez",
+        role: "Gerente Criterios de Ruta",
         description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
         date: "03 May 2020",
       },
       {
-        image: Preview04,
+        image: Testimonio05,
         id: "4",
-        title: "BLOG TITLE!",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
+        title: "Paula Gaviria Betancourt",
+        role: "Directora Fundación ComPaz",
         description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
         date: "15 May 2020",
       },
-      {
-        image: Testimonio01,
-        id: "5",
-        title: "BLOG ARTICLE!",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
-        description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
-        date: "20 May 2020",
-      },
-      {
-        image: Testimonio01,
-        id: "6",
-        title: "AWESOME TITLE!",
-        role: "Magistrada de la Jurisdicción Especial para la Paz",
-        description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
-        date: "23 May 2020",
-      },
+      // {
+      //   image: Testimonio01,
+      //   id: "5",
+      //   title: "BLOG ARTICLE!",
+      //   role: "Magistrada de la Jurisdicción Especial para la Paz",
+      //   description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
+      //   date: "20 May 2020",
+      // },
+      // {
+      //   image: Testimonio01,
+      //   id: "6",
+      //   title: "AWESOME TITLE!",
+      //   role: "Magistrada de la Jurisdicción Especial para la Paz",
+      //   description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
+      //   date: "23 May 2020",
+      // },
     ]
   )
 
@@ -175,7 +179,7 @@ export default function Blog(props) {
       <div className="wrapper">
         <Title title="EXPERIENCIAS." />
         <p className="font20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="padding30">
           {/* <Swiper {...params}>{storiesRender}</Swiper> */}
