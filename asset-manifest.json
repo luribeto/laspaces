@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/laspaces/static/css/main.5375c714.css",
-    "main.js": "/laspaces/static/js/main.b60d9c7b.js",
+    "main.css": "/laspaces/static/css/main.321efeef.css",
+    "main.js": "/laspaces/static/js/main.86f771de.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/linix-quienes-somos.png": "/laspaces/static/media/linix-quienes-somos.131cb534ac9584d4482d.png",
     "static/media/dudas-asesoria.jpeg": "/laspaces/static/media/dudas-asesoria.23e3505e546aa5ff92aa.jpeg",
     "static/media/mexico-3.png": "/laspaces/static/media/mexico-3.de439f9177efddeb4236.png",
     "static/media/preview.png": "/laspaces/static/media/preview.33132950c8d302e5a7f2.png",
+    "static/media/testimonio-1.png": "/laspaces/static/media/testimonio-1.bbdd90ecc5ff9d71d389.png",
     "static/media/back-dano.png": "/laspaces/static/media/back-dano.d1836fb6180c250b931a.png",
     "static/media/back-protocolos.png": "/laspaces/static/media/back-protocolos.da0355a04db914ab3c89.png",
     "static/media/logo.svg": "/laspaces/static/media/logo.3c443ce7f4a6ba3e706920310d18b831.svg",
@@ -28,12 +29,12 @@
     "index.html": "/laspaces/index.html",
     "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
     "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
-    "main.5375c714.css.map": "/laspaces/static/css/main.5375c714.css.map",
-    "main.b60d9c7b.js.map": "/laspaces/static/js/main.b60d9c7b.js.map",
+    "main.321efeef.css.map": "/laspaces/static/css/main.321efeef.css.map",
+    "main.86f771de.js.map": "/laspaces/static/js/main.86f771de.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5375c714.css",
-    "static/js/main.b60d9c7b.js"
+    "static/css/main.321efeef.css",
+    "static/js/main.86f771de.js"
   ]
 }
