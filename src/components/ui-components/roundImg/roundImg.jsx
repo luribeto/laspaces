@@ -10,6 +10,9 @@ const roundImg = (props) => {
 
   return (
     <div className="testomonio" onClick={onClick}>
+      <div className="blog__hover flex-center">
+        <h4 className=" weight800" style={{fontSize: '10rem'}}>&#8678;</h4>
+      </div>
       <Row>
         <Col xs={12} sm={12} md={4} lg={3} className="testimonial-img">
           <img src={image} alt="Testimonio" />

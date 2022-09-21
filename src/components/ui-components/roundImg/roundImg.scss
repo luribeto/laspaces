@@ -3,7 +3,27 @@
 .testomonio {
   // display: flex;
   padding: 0 4rem;
-  margin: 0 0 4rem 0;
+  // margin: 0 0 4rem 0;
+  margin: 2rem 0 0 0;
+  position: relative;
+
+  .blog__hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    // background-color: radial-gradient(rgba(black, 0.6), rgba(transparent, 0.6));
+    background-image: radial-gradient($white-color 10%, transparent 90%);
+    // background-color: rgba(black, 0.6); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, black , transparent);
+    border-radius: 30px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    padding-left: 10rem;
+  }
 
   .testimonial-img {
     display: flex;
@@ -42,6 +62,12 @@
     .quote {
       font-size: 3rem;
     }
+  }
+}
+
+.testomonio:hover {
+  .blog__hover {
+    opacity: 1;
   }
 }
 

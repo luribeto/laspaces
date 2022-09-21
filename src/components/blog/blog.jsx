@@ -117,9 +117,10 @@ export default function Blog(props) {
     // BLOG STORIES RENDER
   let storiesRender = null;
   if (testimonios.length > 0) {
-    storiesRender = testimonios.map((story) => (
-      <div key={story.id}>
-        <BlogBox article={story} onReadMore={handleModalToggle} />
+    storiesRender = testimonios.map((testimonio) => (
+      <div key={testimonio.id}>
+        {/* <BlogBox article={testimonio} onReadMore={handleModalToggle} /> */}
+        <RoundImg key={testimonio.id} testimonio={testimonio} onClick={() => handleModalToggle(testimonio)}/>
       </div>
     ));
   }
@@ -131,15 +132,15 @@ export default function Blog(props) {
     loop: true,
     breakpoints: {
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 40,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 40,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
       },
       640: {
@@ -182,9 +183,9 @@ export default function Blog(props) {
         <p className="font20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className="padding30">
-          {/* <Swiper {...params}>{storiesRender}</Swiper> */}
-          {renderTestimonials()}
+        <div className="" style={{paddingTop: '3rem'}}>
+          <Swiper {...params}>{storiesRender}</Swiper>
+          {/* {renderTestimonials()} */}
         </div>
       </div>
       {/* <SimpleModal open={modalOpen} body={body} setOpen={() => handleModalToggle()} /> */}
