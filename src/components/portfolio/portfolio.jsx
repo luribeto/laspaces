@@ -7,9 +7,9 @@ import "./portfolio.scss";
 import Arrow from "../../assets/portfolio/arrow.svg";
 import Preview1 from "../../assets/portfolio/project01/back-dano.png";
 import Preview2 from "../../assets/portfolio/project02/back-protocolos.png";
-import Preview3 from "../../assets/portfolio/project03/preview.png";
+import Preview3 from "../../assets/portfolio/project04/back-formacion.png";
 import Preview4 from "../../assets/portfolio/project04/preview.png";
-import Preview5 from "../../assets/portfolio/project05/preview.png";
+import Preview5 from "../../assets/portfolio/project04/back-mediacion.png";
 import Preview6 from "../../assets/portfolio/project06/dudas-asesoria.jpeg";
 //Components
 import Button from "../ui-components/button/button";
@@ -46,17 +46,17 @@ class Portfolio extends React.Component {
         },
         {
           id: "4",
-          preview: Preview2,
+          preview: Preview5,
           title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
           tag: "web",
-          backImg: "back-estrategias.png",
+          backImg: "back-mediacion.png",
         },
         {
           id: "5",
-          preview: Preview5,
+          preview: Preview3,
           title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
           tag: "illustrations",
-          backImg: "back-estrategias.png",
+          backImg: "back-formacion.png",
         },
         {
           id: "6",

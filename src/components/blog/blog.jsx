@@ -18,6 +18,7 @@ import Testimonio02 from "../../assets/blog/testimonio-2.png";
 import Testimonio03 from "../../assets/blog/testimonio-3.png";
 import Testimonio04 from "../../assets/blog/testimonio-4.png";
 import Testimonio05 from "../../assets/blog/testimonio-5.png";
+import Testimonio06 from "../../assets/blog/testimonio-6.png";
 // Components
 import Title from "../ui-components/title/title";
 import BlogBox from "./blogBox";
@@ -70,7 +71,7 @@ export default function Blog(props) {
         id: "2",
         title: "Oscar Parra",
         role: "Magistrado Sala de Reconocimiento - Jurisdicción Especial para la Paz",
-        description: "Lorem ipsum dolor undo thes tabore et dolore magna aliqua.",
+        description: "Los diálogos que he tenido con Lina Rondón en los últimos años han sido fundamentales para pensar en diversos desafíos metodológicos y sustantivos sobre la determinación de los daños individuales, familiares, colectivos en el marco de los macrocasos, así como los pasos adecuados para pensar las audiencias de observaciones frente a las versiones y cómo organizar la participación de las representaciones de víctimas en las observaciones y en particular, cómo pensarnos esa terceridad de la magistratura frente a las víctimas y frente a los comparecientes pero para construir escenarios de diálogo en torno al reconocimiento.",
         date: "27 April 2020",
       },
       {
@@ -78,25 +79,25 @@ export default function Blog(props) {
         id: "3",
         title: "Olga Lucía Gomez",
         role: "Gerente Criterios de Ruta",
-        description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
+        description: "He conocido el trabajo de Lina Rondón por mas de 20 años y he tenido la fortuna de trabajar con ella en distintos escenarios de cooperación internacional, organizaciones no gubernamentales y entidades del Estado, principalmente en lo relacionado con la elaboración de protocolos de atención a víctimas y poblaciones vulnerables. Sin duda su experiencia actual le ha dado elementos muy valiosos para desarrollar muy buen las líneas de trabajo de su portafolio con Las Paces.",
         date: "03 May 2020",
       },
       {
         image: Testimonio05,
         id: "4",
         title: "Paula Gaviria Betancourt",
-        role: "Directora Fundación ComPaz",
-        description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
+        role: "Directora Fundación COMPAZ",
+        description: "El acompañamiento psicosocial a víctimas y sobrevivientes del conflicto es fundamental, sin ello, muchos de los otros esfuerzos que se realizan por parte del Estado colombiano y de las organizaciones de la sociedad civil, resultan insuficientes. La salud mental es el ancla que permite la continuidad de otros procesos, es lo que permite hilar relaciones que se fracturaron en los territorios. La estrategia de recuperación emocional a nivel grupal y Entrelazando fueron esfuerzos desde la Unidad para las Víctimas que fueron coordinados por Lina quien con el equipo psicosocial lograron impactar positivamente la vida de muchas víctimas, sobrevivientes y comunidades. Estas apuesta de atención y reparación aún hoy dan frutos después de muchos años en el país, y  han contribuido a consolidar los esfuerzos de paz por los que muchos seguimos apostando.",
         date: "15 May 2020",
       },
-      // {
-      //   image: Testimonio01,
-      //   id: "5",
-      //   title: "BLOG ARTICLE!",
-      //   role: "Magistrada de la Jurisdicción Especial para la Paz",
-      //   description: "Lorem tabore et dolore magna aliqua ipsum dolor undo thes.",
-      //   date: "20 May 2020",
-      // },
+      {
+        image: Testimonio06,
+        id: "5",
+        title: "Marcos Morales",
+        role: "Director FORENPSIC",
+        description: "He tenido el gusto y el honor de formarme con Lina Rondón y puedo decir que es extraordinaria la manera en que transmite conocimientos y experiencias; fomenta la reflexión en torno a la práctica forense con víctimas y apela siempre por una visión empática y sensible pero rigurosa frente al trabajo con víctimas de graves violaciones de derechos humanos. Para mí, una de las principales referentes contemporáneas del enfoque psicosocial en Latinoamérica. ",
+        date: "20 May 2020",
+      },
       // {
       //   image: Testimonio01,
       //   id: "6",
@@ -177,7 +178,7 @@ export default function Blog(props) {
   return (
     <div className="blog" id="blog">
       <div className="wrapper">
-        <Title title="EXPERIENCIAS." />
+        <Title title="EXPERIENCIAS" />
         <p className="font20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

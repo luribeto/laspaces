@@ -30,7 +30,7 @@ const contactInfo = () => (
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon3}
-            textLine1="laspaces@gmail.com"
+            textLine1="laspaces.sas@gmail.com"
             textLine2=""
           />
         </Col>

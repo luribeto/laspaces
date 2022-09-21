@@ -22,7 +22,6 @@ const roundImg = (props) => {
             {description}
             <span className="quote">"</span>
           </p>
-          <i>{date}</i>
         </Col>
       </Row>
     </div>
