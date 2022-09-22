@@ -185,8 +185,8 @@ export default function Blog(props) {
         </p>
         <div className="swiper-wrapper">
           <div className="testimonio__hover flex-center">
-            <h4 className=" weight800" style={{width: '50%', fontSize: '10rem'}}>‹</h4>
-            <h4 className=" weight800" style={{width: '50%', fontSize: '10rem'}}> ›</h4>
+            <span class="material-symbols-outlined">drag_indicator</span>
+            <span class="material-symbols-outlined">drag_indicator</span>
           </div>
           <Swiper {...params}>{storiesRender}</Swiper>
           {/* {renderTestimonials()} */}
