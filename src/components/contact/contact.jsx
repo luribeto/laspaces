@@ -111,13 +111,13 @@ class Contact extends React.Component {
         <div className="wrapper">
           <Title title="CONTACTO." />
           <p className="font20">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
+            Si quieres conocer más de nuestro trabajo o consideras que nuestra experiencia te puede servir para lograr o fortalecer tu objetivo, no dudes en enviarnos un mensaje y pronto te contestaremos todas tus inquietudes.
           </p>
 
           <Row className="padding40">
             <Col md={12} lg={6}>
               <form id="contact-form" onSubmit={this.handleSubmit}>
-                <h4 className="font30 weight800 padding30">Send Us Message.</h4>
+                <h4 className="font30 weight800 padding30">Mandanos un mensaje.</h4>
                 <input type="text" placeholder="Nombre" required name="name" value={this.state.name} onChange={this.inputHandler} />
                 <input type="email" placeholder="Email" required name="email" value={this.state.email} onChange={this.inputHandler} />
                 <textarea

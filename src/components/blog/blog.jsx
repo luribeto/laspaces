@@ -181,7 +181,8 @@ export default function Blog(props) {
       <div className="wrapper">
         <Title title="EXPERIENCIAS" />
         <p className="font20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Algunas de las palabras y reconocimientos que algunos de nuestros clientes han tenido con nosotros.<br></br>
+          A todsos ellos gracias por estas palabras de rec onocimiento sobre nuestro trabajo.
         </p>
         <div className="swiper-wrapper">
           <div className="testimonio__hover flex-center">

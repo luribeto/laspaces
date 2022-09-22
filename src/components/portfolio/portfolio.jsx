@@ -27,42 +27,42 @@ class Portfolio extends React.Component {
           id: "1",
           preview: Preview1,
           title: "CARACTERIZACIÓN DE DAÑOS PSICOSOCIALES",
-          tag: "branding",
+          tag: "13",
           backImg: "back-dano.png",
         },
         {
           id: "2",
           preview: Preview2,
           title: "CONSTRUCCIÓN DE PROTOCOLOS",
-          tag: "web",
+          tag: "17",
           backImg: "back-protocolos.png",
         },
         {
           id: "3",
           preview: Preview4,
           title: "ESTRATEGIA DE ATENCIÓN AL AGOTAMIENTO EMOCIONAL",
-          tag: "illustrations",
+          tag: "3",
           backImg: "back-estrategias.png",
         },
         {
           id: "4",
           preview: Preview5,
           title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
-          tag: "web",
+          tag: "9",
           backImg: "back-mediacion.png",
         },
         {
           id: "5",
           preview: Preview3,
           title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
-          tag: "illustrations",
+          tag: "12",
           backImg: "back-formacion.png",
         },
         {
           id: "6",
           preview: Preview6,
           title: "ASESORÍAS",
-          tag: "branding",
+          tag: "9",
           backImg: "dudas-asesoria.jpeg",
         },
         // {
@@ -210,7 +210,7 @@ class Portfolio extends React.Component {
               <div className="portfolio__nav">
               {this.state.selected && 
                 <div>
-                  <button className="back-btn" onClick={this.seeAllServices}>&#x2756; TODOS LOS SERVICIOS</button>
+                  <button className="all-button" onClick={this.seeAllServices}>&#x2756; TODOS LOS SERVICIOS</button>
                   <button className="back-btn" disabled={disablePrev} onClick={this.seePrevServices}>&#8678; ANTERIOR</button>
                   <button className="back-btn" disabled={disableNext} onClick={this.seeNextServices}>SIGUIENTE &#8680;</button>
                 </div>

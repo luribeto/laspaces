@@ -13,7 +13,7 @@ const projectBox = (props) => {
       <div className="portfolio__hover-info flex-center">
         <div className="text-center">
           <p className="font30 weight800">{props.title}</p>
-          <p className="font12 weight500">{props.tag}</p>
+          <p className="font20 weight500">Exp. <b>{props.tag}</b> años</p>
         </div>
       </div>
     </div>
