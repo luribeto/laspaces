@@ -85,7 +85,7 @@ export default function Blog(props) {
       {
         image: Testimonio05,
         id: "4",
-        title: "Paula Gaviria Betancourt",
+        title: "Paula Gaviria Betancur",
         role: "Directora Fundación COMPAZ",
         description: "El acompañamiento psicosocial a víctimas y sobrevivientes del conflicto es fundamental, sin ello, muchos de los otros esfuerzos que se realizan por parte del Estado colombiano y de las organizaciones de la sociedad civil, resultan insuficientes. La salud mental es el ancla que permite la continuidad de otros procesos, es lo que permite hilar relaciones que se fracturaron en los territorios. La estrategia de recuperación emocional a nivel grupal y Entrelazando fueron esfuerzos desde la Unidad para las Víctimas que fueron coordinados por Lina quien con el equipo psicosocial lograron impactar positivamente la vida de muchas víctimas, sobrevivientes y comunidades. Estas apuesta de atención y reparación aún hoy dan frutos después de muchos años en el país, y  han contribuido a consolidar los esfuerzos de paz por los que muchos seguimos apostando.",
         date: "15 May 2020",
@@ -177,13 +177,17 @@ export default function Blog(props) {
   }
 
   return (
-    <div className="blog" id="blog">
+    <div className="blog" id="blog" style={{border: '1px solid red'}}>
       <div className="wrapper">
         <Title title="EXPERIENCIAS" />
         <p className="font20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className="" style={{paddingTop: '3rem'}}>
+        <div className="swiper-wrapper">
+          <div className="testimonio__hover flex-center">
+            <h4 className=" weight800" style={{width: '50%', fontSize: '10rem'}}>‹</h4>
+            <h4 className=" weight800" style={{width: '50%', fontSize: '10rem'}}> ›</h4>
+          </div>
           <Swiper {...params}>{storiesRender}</Swiper>
           {/* {renderTestimonials()} */}
         </div>

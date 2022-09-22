@@ -3,10 +3,60 @@
 .blog {
   background-color: $light-color;
   padding: 60px 0;
+
+  .swiper-wrapper {
+    margin-top: 3rem;
+    // z-index: 9999;
+
+    .testimonio__hover {
+      cursor: pointer;
+      transition: 0.3s ease;
+      // background-color: radial-gradient(rgba(black, 0.6), rgba(transparent, 0.6));
+      // background-image: linear-gradient(to right, black 10%, transparent 80%, black 10%);
+      background-image: linear-gradient(90deg, rgba(15, 45, 61, 1) 0%, transparent 48%, rgba(15, 45, 61, 1) 100%);
+      // background-color: rgba(black, 0.6); /* For browsers that do not support gradients */
+      // background-image: linear-gradient(to right, black , transparent);
+      border-radius: 30px;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      justify-content: flex-start;
+      // padding-left: 10rem;
+      // z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+
+      h4 {
+        box-sizing: border-box;
+        padding: 0 1rem;
+        text-align: left;
+        color: $main-color;
+      }
+      h4:last-child {
+        text-align: right;
+      }
+    }
+  }
+
+  .swiper-wrapper:hover {
+    .testimonio__hover {
+      opacity: 1;
+    }
+  }
 }
 
 @media screen and (max-width: 990px) {
   #blog {
     text-align: center;
+  }
+
+  .blog {
+    .testimonio__hover {
+      align-items: flex-start;
+    }
   }
 }

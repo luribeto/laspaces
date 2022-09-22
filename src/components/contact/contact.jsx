@@ -37,20 +37,16 @@ class Contact extends React.Component {
       message: this.state.message,
     };
 
-
-
-
     // YOUR EMAIL.JS API KEY IN FORMAT user_xxxxxxxxxxxxxxxxxx
-    let API_KEY = "PkgH3RmXue0hmFWZF";
+    // let API_KEY = "PkgH3RmXue0hmFWZF"; luribeto
+    let API_KEY = "uPefSZLtGWls1JiZR"; // LasPaces.sas
 
     // YOUR EMAIL.JS TEMPLATE ID
     let TEMPLATE_ID = "las_paces_web";
 
-
-
-
     emailjs.send("default_service", TEMPLATE_ID, template_params, API_KEY).then(
       function (response) {
+        debugger
         if (response.status === 200) {
           self.showSuccessModal();
         } else {
