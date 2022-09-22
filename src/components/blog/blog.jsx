@@ -177,7 +177,7 @@ export default function Blog(props) {
   }
 
   return (
-    <div className="blog" id="blog" style={{border: '1px solid red'}}>
+    <div className="blog" id="blog">
       <div className="wrapper">
         <Title title="EXPERIENCIAS" />
         <p className="font20">
