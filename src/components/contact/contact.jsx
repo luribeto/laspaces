@@ -7,7 +7,7 @@ import ContactInfo from './contactInfo/contactInfo';
 import ContactSocial from './contactInfo/contactSocial';
 import Modal from '../contact-modal/Modal';
 
-import ContactBackground from '../../assets/contact/bg.png';
+import ContactBackground from '../../assets/contact/bg-2.png';
 
 class Contact extends React.Component {
   constructor(props) {
