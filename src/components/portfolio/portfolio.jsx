@@ -11,6 +11,14 @@ import Preview3 from "../../assets/portfolio/project04/back-formacion.png";
 import Preview4 from "../../assets/portfolio/project04/preview.png";
 import Preview5 from "../../assets/portfolio/project04/back-mediacion.png";
 import Preview6 from "../../assets/portfolio/project06/dudas-asesoria.jpeg";
+
+import InDano from "../../assets/portfolio/in-dano.png";
+import InProtocolos from "../../assets/portfolio/in-protocolos.png";
+import InEstrategias from "../../assets/portfolio/in-estrategias.png";
+import InMediacion from "../../assets/portfolio/in-mediacion.png";
+import InFormacion from "../../assets/portfolio/in-formacion.png";
+import InAsesorias from "../../assets/portfolio/in-asesorias.png";
+
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -25,45 +33,45 @@ class Portfolio extends React.Component {
       projects: [
         {
           id: "1",
-          preview: Preview1,
+          preview: InDano,
           title: "CARACTERIZACIÓN DE DAÑOS PSICOSOCIALES",
           tag: "13",
           backImg: "back-dano.png",
         },
         {
           id: "2",
-          preview: Preview2,
+          preview: InProtocolos,
           title: "CONSTRUCCIÓN DE PROTOCOLOS",
           tag: "17",
           backImg: "back-protocolos.png",
         },
         {
           id: "3",
-          preview: Preview4,
+          preview: InEstrategias,
           title: "ESTRATEGIA DE ATENCIÓN AL AGOTAMIENTO EMOCIONAL",
           tag: "3",
           backImg: "back-estrategias.png",
         },
         {
           id: "4",
-          preview: Preview5,
+          preview: InMediacion,
           title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
           tag: "9",
           backImg: "back-mediacion.png",
         },
         {
           id: "5",
-          preview: Preview3,
+          preview: InFormacion,
           title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
           tag: "12",
           backImg: "back-formacion.png",
         },
         {
           id: "6",
-          preview: Preview6,
+          preview: InAsesorias,
           title: "ASESORÍAS",
           tag: "9",
-          backImg: "dudas-asesoria.jpeg",
+          backImg: "back-asesorias.png",
         },
         // {
         //   id: "7",
