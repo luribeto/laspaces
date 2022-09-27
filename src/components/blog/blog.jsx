@@ -58,14 +58,14 @@ export default function Blog(props) {
   const [seleccionado, setSeleccionado] = useState({});
   const [testimonios, setTestimonials] = useState(
     [
-      {
-        image: Testimonio02,
-        id: "1",
-        title: "Julieta Lemaitre Ripoll",
-        role: "Magistrada Sala de Reconocimiento - Jurisdicción Especial para la Paz",
-        description: "Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.",
-        date: "21 April 2020",
-      },
+      // {
+      //   image: Testimonio02,
+      //   id: "1",
+      //   title: "Julieta Lemaitre Ripoll",
+      //   role: "Magistrada Sala de Reconocimiento - Jurisdicción Especial para la Paz",
+      //   description: "Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.",
+      //   date: "21 April 2020",
+      // },
       {
         image: Testimonio03,
         id: "2",
