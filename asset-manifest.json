@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laspaces/static/css/main.6ae41535.css",
-    "main.js": "/laspaces/static/js/main.b92732d0.js",
+    "main.js": "/laspaces/static/js/main.742931c2.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/linix-quienes-somos.png": "/laspaces/static/media/linix-quienes-somos.131cb534ac9584d4482d.png",
     "static/media/dudas-asesoria.jpeg": "/laspaces/static/media/dudas-asesoria.23e3505e546aa5ff92aa.jpeg",
@@ -11,7 +11,6 @@
     "static/media/in-mediacion.png": "/laspaces/static/media/in-mediacion.5f687233da533e47c441.png",
     "static/media/preview.png": "/laspaces/static/media/preview.375152a1016bdea5efff.png",
     "static/media/in-asesorias.png": "/laspaces/static/media/in-asesorias.2ae372964a556080d48a.png",
-    "static/media/testimonio-1.png": "/laspaces/static/media/testimonio-1.bbdd90ecc5ff9d71d389.png",
     "static/media/back-formacion.png": "/laspaces/static/media/back-formacion.84af8c76a7921ddf6636.png",
     "static/media/back-mediacion.png": "/laspaces/static/media/back-mediacion.c640a95503dd8e081c41.png",
     "static/media/back-dano.png": "/laspaces/static/media/back-dano.9aed19a5ddf8bd308ecd.png",
@@ -31,6 +30,7 @@
     "static/media/logo-footer.svg": "/laspaces/static/media/logo-footer.0b1952e556c57bf1d72a763e73539237.svg",
     "static/media/eje-3.svg": "/laspaces/static/media/eje-3.c6fd72db742564ec9fce23faa8d84119.svg",
     "static/media/eje-4.svg": "/laspaces/static/media/eje-4.a82d57cedf80a3e7fe9f9ddef67422d4.svg",
+    "static/media/testimonio-1.jpeg": "/laspaces/static/media/testimonio-1.05fe0f3ffdcecdd3034a.jpeg",
     "static/media/eje-5.svg": "/laspaces/static/media/eje-5.3d36a25bfbd308404b3d68cabb0292fc.svg",
     "static/media/eje-6.svg": "/laspaces/static/media/eje-6.dc1fae5e61d458db73d5a07349f90851.svg",
     "static/media/contact-info-icon3.svg": "/laspaces/static/media/contact-info-icon3.a0d0ea57f2207d9d94011e473b20f196.svg",
@@ -45,11 +45,11 @@
     "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
     "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
     "main.6ae41535.css.map": "/laspaces/static/css/main.6ae41535.css.map",
-    "main.b92732d0.js.map": "/laspaces/static/js/main.b92732d0.js.map",
+    "main.742931c2.js.map": "/laspaces/static/js/main.742931c2.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ae41535.css",
-    "static/js/main.b92732d0.js"
+    "static/js/main.742931c2.js"
   ]
 }
