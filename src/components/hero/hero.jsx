@@ -14,7 +14,7 @@ const hero = () => (
         <Col md={12} lg={5}>
           <div className="hero-info">
             <h3 className="weight800 font40">
-              Somos Especialistas en Justicia Restaurativa.
+              Somos Especialistas en Justicia Restaurativa
             </h3>
             <p className="font20">
             Somos una organización dedicada a dar asesoría a entidades estatales y no estatales y a personas que trabajan o están involucradas con temas de justicia restaurativa y reparación integral a víctimas.
