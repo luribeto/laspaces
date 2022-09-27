@@ -13,7 +13,7 @@ import Preview04 from "../../assets/blog/story04/preview.png";
 import Preview05 from "../../assets/blog/story05/preview.png";
 import Preview06 from "../../assets/blog/story06/preview.png";
 
-import Testimonio01 from "../../assets/blog/testimonio-1.png";
+import Testimonio01 from "../../assets/blog/testimonio-1.jpeg";
 import Testimonio02 from "../../assets/blog/testimonio-2.png";
 import Testimonio03 from "../../assets/blog/testimonio-3.png";
 import Testimonio04 from "../../assets/blog/testimonio-4.png";
@@ -58,14 +58,14 @@ export default function Blog(props) {
   const [seleccionado, setSeleccionado] = useState({});
   const [testimonios, setTestimonials] = useState(
     [
-      // {
-      //   image: Testimonio02,
-      //   id: "1",
-      //   title: "Julieta Lemaitre Ripoll",
-      //   role: "Magistrada Sala de Reconocimiento - Jurisdicción Especial para la Paz",
-      //   description: "Lorem ipsum dolor sit amet, consectetur undo thes tabore et dolore magna aliqua.",
-      //   date: "21 April 2020",
-      // },
+      {
+        image: Testimonio01,
+        id: "1",
+        title: "Carolina Jiménez Sandoval",
+        role: "Presidenta de la Oficina en Washington para Asuntos Latinoamericanos - WOLA",
+        description: "En contextos de violencia sistemática, de guerra o de trabajo en el marco de gobiernos autoritarios el tejido social, incluido el de la sociedad civil, se resquebraja. Por ello, un grupo de organizaciones trabajamos con Lina Rondon/Las Paces en un esfuerzo por reunirnos y repensar nuestro trabajo. Desde el inicio, Lina/Las Paces usaron metodologías de trabajo que permitieron situarnos, comprender la situación y posteriormente tramitar tensiones y dificultades para movernos hacia un necesitado reencuentro. Su experticia y cuidadoso trabajo en mediación contribuyó a un proceso de fortalecimiento colectivo muy necesario.",
+        date: "21 April 2020",
+      },
       {
         image: Testimonio03,
         id: "2",

@@ -70,7 +70,7 @@ class Portfolio extends React.Component {
           id: "6",
           preview: InAsesorias,
           title: "ASESORÍAS",
-          tag: "9",
+          tag: "12",
           backImg: "back-asesorias.png",
         },
         // {

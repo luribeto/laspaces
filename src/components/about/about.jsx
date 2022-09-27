@@ -15,13 +15,13 @@ const about = () => (
       <Title title="QUIENES SOMOS" />
       <Row>
         <Col md={12} lg={8}>
-          <p className="font20">
+          <p className="font20" style={{textAlign: 'justify'}}>
             Psicóloga, con especialización en psicología jurídica de la Universidad Católica de Colombia, Maestría en defensa de los DDHH de la Universidad Santo Tomás y formación en el modelo de Mediación Humanista de la Universidad de Milano-Italia. 
           </p>
-          <p className="font20" style={{paddingTop: '20px'}}>
+          <p className="font20" style={{paddingTop: '20px', textAlign: 'justify'}}>
             Con 19 años de experiencia en atención a víctimas de grupos organizados al margen de la ley, se ha desempeñado en el diseño de programas de reconstrucción del tejido social de escala nacional, atención terapéutica a víctimas del conflicto armado, atención psicojurídica, investigación, evaluación forense del daño con víctimas individuales y colectivas de violaciones a los derechos humanos y diseño de política pública en Reparaciones y Justicia Restaurativa.
           </p>
-          <p className="font20" style={{paddingTop: '20px'}}>
+          <p className="font20" style={{paddingTop: '20px', textAlign: 'justify'}}>
             Ha trabajado en la realización de protocolos de atención psicosocial y psicojurídica, reconstrucción del tejido social, mediación, pedagogía emocional y transformación cultural en derechos humanos.
           </p>
         </Col>
