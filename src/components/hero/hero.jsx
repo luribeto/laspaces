@@ -18,7 +18,7 @@ const hero = () => (
             <h3 className="weight800 font40">
               Somos Especialistas en Justicia Restaurativa
             </h3>
-            <p className="font20">
+            <p className="font20" style={{textAlign: 'justify'}}>
             Somos una organización dedicada a dar asesoría a entidades estatales y no estatales y a personas que trabajan o están involucradas con temas de justicia restaurativa y reparación integral a víctimas.
             Realizamos procesos de consultoría, asesoría, fortalecimiento y formación en herramientas psicosociales para la restauración y reparación integral a víctimas, el cuidado emocional de quienes trabajan con graves violaciones a los derechos humanos, también desarrollamos procesos de mediación y preparación para el reconocimiento. 
             </p>
@@ -27,7 +27,7 @@ const hero = () => (
         </Col>
         <Col md={12} lg={6} className="img-wrapper">
           <div className="hero-image" style={{height:'80%'}}>
-            <img style={{height: '100%', width: '100%', objectFit: 'cover'}} src={HeroImage} alt="hero" />
+            {/* <img style={{height: '100%', width: '100%', objectFit: 'cover'}} src={HeroImage} alt="hero" /> */}
           </div>
         </Col>
       </Row>
