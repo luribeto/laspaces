@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/laspaces/static/css/main.4995a4ae.css",
-    "main.js": "/laspaces/static/js/main.9dec6a80.js",
+    "main.css": "/laspaces/static/css/main.b56346a8.css",
+    "main.js": "/laspaces/static/js/main.e2df3be1.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/linix-quienes-somos.png": "/laspaces/static/media/linix-quienes-somos.131cb534ac9584d4482d.png",
     "static/media/dudas-asesoria.jpeg": "/laspaces/static/media/dudas-asesoria.23e3505e546aa5ff92aa.jpeg",
@@ -43,12 +43,12 @@
     "static/media/facebook.svg": "/laspaces/static/media/facebook.85e4ac1741a0c00841205f064a141abf.svg",
     "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
     "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
-    "main.4995a4ae.css.map": "/laspaces/static/css/main.4995a4ae.css.map",
-    "main.9dec6a80.js.map": "/laspaces/static/js/main.9dec6a80.js.map",
+    "main.b56346a8.css.map": "/laspaces/static/css/main.b56346a8.css.map",
+    "main.e2df3be1.js.map": "/laspaces/static/js/main.e2df3be1.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4995a4ae.css",
-    "static/js/main.9dec6a80.js"
+    "static/css/main.b56346a8.css",
+    "static/js/main.e2df3be1.js"
   ]
 }
