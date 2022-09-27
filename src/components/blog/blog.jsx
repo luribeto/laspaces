@@ -182,7 +182,7 @@ export default function Blog(props) {
         <Title title="EXPERIENCIAS" />
         <p className="font20">
           Algunas de las palabras y reconocimientos que algunos de nuestros clientes han tenido con nosotros.<br></br>
-          A todsos ellos gracias por estas palabras de rec onocimiento sobre nuestro trabajo.
+          A todos ellos, gracias por estas palabras de reconocimiento sobre nuestro trabajo.
         </p>
         <div className="swiper-wrapper">
           <div className="testimonio__hover flex-center">
