@@ -15,7 +15,10 @@
     }
 
     .portfolio__hover-info {
-      background-color: rgba($main-color, 0.8);
+      background: rgb(15,45,61);
+      background: linear-gradient(42deg, rgba(15,45,61,0.8) 0%, rgba(0,175,239,0.8) 41%, rgba(72,202,125,0.8) 100%);    
+      // background-color: rgba($main-color, 0.8);
+      // background-image: linear-gradient(to right top, #0f2d3d, #13435b, #145a7b, #14739c, #108cbf, #059bcc, #00abd9, #00bbe5, #00c2d8, #00c7c1, #00caa2, #48ca7d);
       width: 100%;
       height: 100%;
       position: absolute;
