@@ -69,7 +69,7 @@ export default function Blog(props) {
       {
         image: Testimonio03,
         id: "2",
-        title: "Oscar Parra",
+        title: "Oscar Parra Vera",
         role: "Magistrado Sala de Reconocimiento - Jurisdicción Especial para la Paz",
         description: "Los diálogos que he tenido con Lina Rondón en los últimos años han sido fundamentales para pensar en diversos desafíos metodológicos y sustantivos sobre la determinación de los daños individuales, familiares, colectivos en el marco de los macrocasos, así como los pasos adecuados para pensar las audiencias de observaciones frente a las versiones y cómo organizar la participación de las representaciones de víctimas en las observaciones y en particular, cómo pensarnos esa terceridad de la magistratura frente a las víctimas y frente a los comparecientes pero para construir escenarios de diálogo en torno al reconocimiento.",
         date: "27 April 2020",
