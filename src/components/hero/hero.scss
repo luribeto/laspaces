@@ -29,7 +29,9 @@
   }
 
   .hero-info {
-    padding: 50px 0 30px 30px;
+    padding: 50px 30px 40px 30px;
+    background-color: rgba(15, 45, 61, 0.7);
+    border-radius: 30px;
 
     p {
       padding-top: 20px;
@@ -79,6 +81,7 @@
   .hero {
     .hero-info {
       text-align: center;
+      background-color: transparent;
     }
   }
 }

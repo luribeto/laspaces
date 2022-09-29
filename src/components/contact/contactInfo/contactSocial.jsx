@@ -19,7 +19,7 @@ const contactSocial = () => (
           <img src={TwitterIcons} alt="Twitter" />
         </Col>
         <Col xs={12} lg={1} className="contact__social">
-          <img src={YoutubeIcon} className="youtube" alt="Youtube" />
+          <a href="https://www.youtube.com/channel/UCGFt4-hlrrLIu3Ptjd4JfVQ" target="_blank"><img src={YoutubeIcon} className="youtube" alt="Youtube" /></a>
         </Col>
       </Row>
     </Col>

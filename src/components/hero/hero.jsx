@@ -15,7 +15,7 @@ const hero = () => (
       <Row>
         <Col md={12} lg={6}>
           <div className="hero-info">
-            <h3 className="weight800 font40">
+            <h3 className="weight800 font40 colorBlue">
               Somos Especialistas en Justicia Restaurativa
             </h3>
             <p className="font20" style={{textAlign: 'justify'}}>
