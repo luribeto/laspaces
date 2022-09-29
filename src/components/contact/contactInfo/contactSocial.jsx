@@ -16,7 +16,7 @@ const contactSocial = () => (
           <a href="https://www.facebook.com/profile.php?id=100069085670675" target="_blank"><img src={FacebookIcon} alt="facebook" /></a>
         </Col>
         <Col xs={12} lg={1} className="contact__social">
-          <img src={TwitterIcons} alt="Twitter" />
+          <a href="https://twitter.com/LasPaces_sas" target="_blank"><img src={TwitterIcons} alt="Twitter" /></a>
         </Col>
         <Col xs={12} lg={1} className="contact__social">
           <a href="https://www.youtube.com/channel/UCGFt4-hlrrLIu3Ptjd4JfVQ" target="_blank"><img src={YoutubeIcon} className="youtube" alt="Youtube" /></a>
