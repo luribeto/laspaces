@@ -13,7 +13,7 @@ const contactSocial = () => (
     <Col xs={12}>
       <Row center="xs">
         <Col xs={12} lg={1} className="contact__social">
-          <img src={FacebookIcon} alt="facebook" />
+          <a href="https://www.facebook.com/profile.php?id=100069085670675" target="_blank"><img src={FacebookIcon} alt="facebook" /></a>
         </Col>
         <Col xs={12} lg={1} className="contact__social">
           <img src={TwitterIcons} alt="Twitter" />

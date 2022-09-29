@@ -44,6 +44,9 @@ class App extends React.Component {
   };
 
   render() {
+    // DOC
+    document.title = "";
+    document.title = "Las Paces - Especialistas en justicia restaurativa";
     // BACKDROP RENDER
     let backdrop = <Backdrop closeMobileMenu={this.closeMobileMenu} />;
     if (this.state.mobileNavbarOpen) {
