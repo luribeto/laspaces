@@ -19,6 +19,7 @@ import Testimonio03 from "../../assets/blog/testimonio-3.png";
 import Testimonio04 from "../../assets/blog/testimonio-4.png";
 import Testimonio05 from "../../assets/blog/testimonio-5.png";
 import Testimonio06 from "../../assets/blog/testimonio-6.png";
+import Testimonio07 from "../../assets/blog/testimonio-7.png";
 // Components
 import Title from "../ui-components/title/title";
 import BlogBox from "./blogBox";
@@ -67,8 +68,16 @@ export default function Blog(props) {
         date: "21 April 2020",
       },
       {
-        image: Testimonio03,
+        image: Testimonio07,
         id: "2",
+        title: "Graciela Frias Ojinaga",
+        role: "Directora Sentit Nobis - México",
+        description: "Desde Sentit Nobis estamos profundamente agradecidas con Lina Rondón/Las paces por su valiosa colaboración en el desarrollo del Proyecto DICIENDO NOS, Programa de Implementación de Procesos Restaurativos para la Atención a Víctimas.  Compromiso, interés genuino, reflexividad, ampliación de mirada, creatividad y aprendizaje significativo logrado en las instituciones contraparte del Programa JAVA de USAID México, en los estados de Sonora, San Luis Potosí, Coahuila e Hidalgo en México; su aportación y acompañamiento han sido fundamentales para los logros obtenidos… gracias de corazón.",
+        date: "27 April 2020",
+      },
+      {
+        image: Testimonio03,
+        id: "3",
         title: "Oscar Parra Vera",
         role: "Magistrado Sala de Reconocimiento - Jurisdicción Especial para la Paz",
         description: "Los diálogos que he tenido con Lina Rondón en los últimos años han sido fundamentales para pensar en diversos desafíos metodológicos y sustantivos sobre la determinación de los daños individuales, familiares, colectivos en el marco de los macrocasos, así como los pasos adecuados para pensar las audiencias de observaciones frente a las versiones y cómo organizar la participación de las representaciones de víctimas en las observaciones y en particular, cómo pensarnos esa terceridad de la magistratura frente a las víctimas y frente a los comparecientes pero para construir escenarios de diálogo en torno al reconocimiento.",
@@ -76,7 +85,7 @@ export default function Blog(props) {
       },
       {
         image: Testimonio04,
-        id: "3",
+        id: "4",
         title: "Olga Lucía Gomez",
         role: "Gerente Criterios de Ruta",
         description: "He conocido el trabajo de Lina Rondón por mas de 20 años y he tenido la fortuna de trabajar con ella en distintos escenarios de cooperación internacional, organizaciones no gubernamentales y entidades del Estado, principalmente en lo relacionado con la elaboración de protocolos de atención a víctimas y poblaciones vulnerables. Sin duda su experiencia actual le ha dado elementos muy valiosos para desarrollar muy buen las líneas de trabajo de su portafolio con Las Paces.",
@@ -84,7 +93,7 @@ export default function Blog(props) {
       },
       {
         image: Testimonio05,
-        id: "4",
+        id: "5",
         title: "Paula Gaviria Betancur",
         role: "Directora Fundación COMPAZ",
         description: "El acompañamiento psicosocial a víctimas y sobrevivientes del conflicto es fundamental, sin ello, muchos de los otros esfuerzos que se realizan por parte del Estado colombiano y de las organizaciones de la sociedad civil, resultan insuficientes. La salud mental es el ancla que permite la continuidad de otros procesos, es lo que permite hilar relaciones que se fracturaron en los territorios. La estrategia de recuperación emocional a nivel grupal y Entrelazando fueron esfuerzos desde la Unidad para las Víctimas que fueron coordinados por Lina quien con el equipo psicosocial lograron impactar positivamente la vida de muchas víctimas, sobrevivientes y comunidades. Estas apuesta de atención y reparación aún hoy dan frutos después de muchos años en el país, y  han contribuido a consolidar los esfuerzos de paz por los que muchos seguimos apostando.",
@@ -92,7 +101,7 @@ export default function Blog(props) {
       },
       {
         image: Testimonio06,
-        id: "5",
+        id: "6",
         title: "Marcos Morales",
         role: "Director FORENPSIC",
         description: "He tenido el gusto y el honor de formarme con Lina Rondón y puedo decir que es extraordinaria la manera en que transmite conocimientos y experiencias; fomenta la reflexión en torno a la práctica forense con víctimas y apela siempre por una visión empática y sensible pero rigurosa frente al trabajo con víctimas de graves violaciones de derechos humanos. Para mí, una de las principales referentes contemporáneas del enfoque psicosocial en Latinoamérica. ",

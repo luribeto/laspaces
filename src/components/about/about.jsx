@@ -12,7 +12,7 @@ import Person02 from "../../assets/about/person02.png";
 const about = () => (
   <div id="about">
     <div className="wrapper">
-      <Title title="QUIENES SOMOS" />
+      <Title title="QUIÉNES SOMOS" />
       <Row>
         <Col md={12} lg={8}>
           <p className="font20" style={{textAlign: 'justify'}}>
