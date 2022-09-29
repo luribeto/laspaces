@@ -25,6 +25,7 @@ const contactInfo = () => (
           <ContactInfoBox
             icon={ContactInfoIcon2}
             textLine1="+57 320-3433353"
+            hRef="callto: +573203433353"
           />
         </Col>
         <Col xs={12} lg={3} className="contact__info">
@@ -32,6 +33,7 @@ const contactInfo = () => (
             icon={ContactInfoIcon3}
             textLine1="laspaces.sas@gmail.com"
             textLine2=""
+            hRef="mailto: laspaces.sas@gmail.com"
           />
         </Col>
       </Row>

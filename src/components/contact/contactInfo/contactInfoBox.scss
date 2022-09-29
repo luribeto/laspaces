@@ -7,6 +7,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
 
   img {
     margin: 20px 0;
@@ -15,5 +21,6 @@
   p {
     font-size: 2rem;
     line-height: 2rem;
+    color: $black-color;
   }
 }
