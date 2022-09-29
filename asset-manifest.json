@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laspaces/static/css/main.67fc65a2.css",
-    "main.js": "/laspaces/static/js/main.a6b9b99c.js",
+    "main.js": "/laspaces/static/js/main.6441a4a3.js",
     "static/js/787.e5ef0642.chunk.js": "/laspaces/static/js/787.e5ef0642.chunk.js",
     "static/media/linix-quienes-somos.png": "/laspaces/static/media/linix-quienes-somos.131cb534ac9584d4482d.png",
     "static/media/dudas-asesoria.jpeg": "/laspaces/static/media/dudas-asesoria.23e3505e546aa5ff92aa.jpeg",
@@ -14,6 +14,7 @@
     "static/media/back-formacion.png": "/laspaces/static/media/back-formacion.84af8c76a7921ddf6636.png",
     "static/media/back-mediacion.png": "/laspaces/static/media/back-mediacion.c640a95503dd8e081c41.png",
     "static/media/back-dano.png": "/laspaces/static/media/back-dano.9aed19a5ddf8bd308ecd.png",
+    "static/media/testimonio-7.png": "/laspaces/static/media/testimonio-7.6c8e2cc358adae86d938.png",
     "static/media/in-protocolos.png": "/laspaces/static/media/in-protocolos.c6054e22da388d6995fe.png",
     "static/media/back-protocolos.png": "/laspaces/static/media/back-protocolos.47304f639f2fc150ee78.png",
     "static/media/testimonio-3.png": "/laspaces/static/media/testimonio-3.4302e160a911a51d98cb.png",
@@ -45,11 +46,11 @@
     "static/media/mobile-menu.svg": "/laspaces/static/media/mobile-menu.872f97a030b2a396e91bebc0234c89be.svg",
     "static/media/arrow.svg": "/laspaces/static/media/arrow.69aeab4537f1da71f2aa4a5f15e6d210.svg",
     "main.67fc65a2.css.map": "/laspaces/static/css/main.67fc65a2.css.map",
-    "main.a6b9b99c.js.map": "/laspaces/static/js/main.a6b9b99c.js.map",
+    "main.6441a4a3.js.map": "/laspaces/static/js/main.6441a4a3.js.map",
     "787.e5ef0642.chunk.js.map": "/laspaces/static/js/787.e5ef0642.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67fc65a2.css",
-    "static/js/main.a6b9b99c.js"
+    "static/js/main.6441a4a3.js"
   ]
 }
