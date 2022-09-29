@@ -11,7 +11,7 @@ const partnerBox = () => (
     <div className="wrapper">
       <Row>
         <Col xs={12} sm={10} md={10}>
-          <div className="footer-box">
+          <div className="footer-box-lp">
             <img src={Logo} alt="logo" />
             <div>
               <p>© 2022 - Las Paces, Derechos Reservados</p>
@@ -21,8 +21,8 @@ const partnerBox = () => (
         </Col>
         <Col xs={12} sm={2} md={2}>
           <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
-            <div className="footer-box back-to-top">
-              <p>VOLVER AL INICIO</p>
+            <div className="footer-box-btn back-to-top">
+              <p>INICIO</p>
               <img src={Arrow} alt="arrow" />
             </div>
           </Link>
