@@ -40,10 +40,10 @@ input:active, input:focus {
   border: 2px solid $main-color;
 }
 
-::placeholder {
-  color: $black-color;
-  font-size: 12px;
-}
+// ::placeholder {
+//   color: $black-color;
+//   font-size: 12px;
+// }
 
 
 textarea {
@@ -66,7 +66,7 @@ textarea:active, textarea:focus {
 
 ::placeholder {
   color: $black-color;
-  font-size: 12px;
+  font-size: 1.5rem;
 }
 
   .sending-btn {
@@ -115,5 +115,10 @@ textarea:active, textarea:focus {
   }
   .sending-btn {
     margin: 30px auto;
+  }
+
+  ::placeholder {
+    color: $black-color;
+    font-size: 2rem;
   }
 }

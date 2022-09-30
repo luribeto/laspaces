@@ -14,10 +14,10 @@ const roundImg = (props) => {
         <h4 className=" weight800" style={{fontSize: '10rem'}}>&#8678;</h4>
       </div> */}
       <Row>
-        <Col xs={12} sm={12} md={4} lg={3} className="testimonial-img">
+        <Col xs={12} sm={12} md={12} lg={3} className="testimonial-img">
           <img src={image} alt="Testimonio" />
         </Col>
-        <Col xs={12} sm={12} md={6} lg={7} className="testimonial-txt">
+        <Col xs={12} sm={12} md={12} lg={7} className="testimonial-txt">
           <h3 className="font30 weight800 padding5">{title}</h3>
           <h5 className="font20 weight800 margin0">{role}</h5>
           <p>

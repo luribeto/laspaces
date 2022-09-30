@@ -91,7 +91,7 @@ class Contact extends React.Component {
     let submitButtonRender = (
       <div className="small__button">
         <button aria-label="send message" type="submit" value="Enviar Mensaje">
-          Send Message
+          ENVIAR MENSAJE
         </button>
       </div>
     );

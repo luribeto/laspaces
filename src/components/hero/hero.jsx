@@ -22,7 +22,7 @@ const hero = () => (
             Somos una organización dedicada a dar asesoría a entidades estatales y no estatales y a personas que trabajan o están involucradas con temas de justicia restaurativa y reparación integral a víctimas.
             Realizamos procesos de consultoría, asesoría, fortalecimiento y formación en herramientas psicosociales para la restauración y reparación integral a víctimas, el cuidado emocional de quienes trabajan con graves violaciones a los derechos humanos, también desarrollamos procesos de mediación y preparación para el reconocimiento. 
             </p>
-            <Button label="ENVIANOS UN MENSAJE" target={"contact"} />
+            <Button label="ENVÍANOS UN MENSAJE" target={"contact"} />
           </div>
         </Col>
         <Col md={12} lg={6} className="img-wrapper">
