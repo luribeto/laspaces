@@ -36,7 +36,7 @@ class Portfolio extends React.Component {
           preview: InDano,
           title: "CARACTERIZACIÓN DE DAÑOS PSICOSOCIALES",
           tag: "13",
-          backImg: "back-dano.png",
+          backImg: "back-dano-old.png",
         },
         {
           id: "2",
@@ -50,21 +50,21 @@ class Portfolio extends React.Component {
           preview: InEstrategias,
           title: "ESTRATEGIA DE ATENCIÓN AL AGOTAMIENTO EMOCIONAL",
           tag: "3",
-          backImg: "back-estrategias.png",
+          backImg: "back-estrategias-old.png",
         },
         {
           id: "4",
           preview: InMediacion,
           title: "MEDIACIÓN Y ENCUENTROS ENTRE VÍCTIMAS Y RESPONSABES",
           tag: "9",
-          backImg: "back-mediacion.png",
+          backImg: "back-mediacion-old.png",
         },
         {
           id: "5",
           preview: InFormacion,
           title: "FORMACIÓN EN HERRAMIENTAS DE ATENCIÓN PSICOSOCIAL",
           tag: "12",
-          backImg: "back-formacion.png",
+          backImg: "back-formacion-old.png",
         },
         {
           id: "6",
