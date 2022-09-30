@@ -17,7 +17,7 @@ import InProtocolos from "../../assets/portfolio/in-protocolos.png";
 import InEstrategias from "../../assets/portfolio/in-estrategias.png";
 import InMediacion from "../../assets/portfolio/in-mediacion.png";
 import InFormacion from "../../assets/portfolio/in-formacion.png";
-import InAsesorias from "../../assets/portfolio/in-asesorias.png";
+import InAsesorias from "../../assets/portfolio/in-asesorias-new.png";
 
 //Components
 import Button from "../ui-components/button/button";
@@ -71,7 +71,7 @@ class Portfolio extends React.Component {
           preview: InAsesorias,
           title: "ASESORÍAS",
           tag: "12",
-          backImg: "back-asesorias.png",
+          backImg: "back-asesorias-old.png",
         },
         // {
         //   id: "7",
